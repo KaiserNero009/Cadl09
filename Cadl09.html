@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadl09 | Content Creator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #fcd34d, #f59e0b);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: translateY(-5px);
+            filter: drop-shadow(0 5px 5px rgba(252, 211, 77, 0.3));
+        }
+        .support-card {
+            transition: all 0.3s ease;
+        }
+        .support-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(252, 211, 77, 0.2);
+        }
+        footer p:last-child {
+            transition: all 0.3s ease;
+        }
+        footer p:last-child:hover {
+            transform: scale(1.05);
+            text-shadow: 0 0 10px rgba(252, 211, 77, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-yellow-900/20 to-yellow-700/20 z-0"></div>
+        <div class="container mx-auto px-6 z-10">
+            <div class="flex flex-col items-center text-center py-20">
+                <div class="w-40 h-40 rounded-full border-4 border-yellow-400 overflow-hidden mb-6 shadow-lg shadow-yellow-400/30">
+                    <img src="https://i.imgur.com/4pvNX9J.png" alt="Cadl09" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">Cadl<span class="gradient-text">09</span></h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">Content Creator | Streamer | Entertainer</p>
+                
+                <!-- Social Links -->
+                <div class="flex flex-wrap justify-center gap-6 mb-12">
+                    <a href="https://www.youtube.com/channel/UCAcxt5GzWqimXKPwzPbQd8w" target="_blank" class="social-icon">
+                        <div class="bg-red-600 p-4 rounded-full">
+                            <i data-feather="youtube" class="w-6 h-6"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/cadl09/" target="_blank" class="social-icon">
+                        <div class="bg-pink-600 p-4 rounded-full">
+                            <i data-feather="instagram" class="w-6 h-6"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.twitch.tv/cadl09" target="_blank" class="social-icon">
+                        <div class="bg-purple-600 p-4 rounded-full">
+                            <i data-feather="twitch" class="w-6 h-6"></i>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/09Cadl" target="_blank" class="social-icon">
+                        <div class="bg-blue-400 p-4 rounded-full">
+                            <i data-feather="twitter" class="w-6 h-6"></i>
+                        </div>
+                    </a>
+                    <a href="https://whatsapp.com/channel/0029VaLKaiaLdQeiIPDKs72O" target="_blank" class="social-icon">
+                        <div class="bg-green-500 p-4 rounded-full">
+                            <i data-feather="message-circle" class="w-6 h-6"></i>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Support Section -->
+                <h2 class="text-2xl font-semibold mb-6">Unterstütze mich</h2>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <a href="https://streamelements.com/cadl09/tip" target="_blank" class="support-card">
+                        <div class="bg-gradient-to-r from-purple-600 to-blue-600 p-6 rounded-xl shadow-lg flex items-center gap-4">
+                            <i data-feather="heart" class="w-8 h-8"></i>
+                            <span class="text-lg font-medium">Spenden</span>
+                        </div>
+                    </a>
+                    <a href="https://www.twitch.tv/subs/cadl09" target="_blank" class="support-card">
+                        <div class="bg-gradient-to-r from-pink-600 to-purple-600 p-6 rounded-xl shadow-lg flex items-center gap-4">
+                            <i data-feather="star" class="w-8 h-8"></i>
+                            <span class="text-lg font-medium">Twitch Abo</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400">© 2023 Cadl09. Alle Rechte vorbehalten.</p>
+            <p class="text-yellow-400 text-sm mt-2">Made with   ❤️ by KaiserNero009</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
